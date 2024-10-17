@@ -11,5 +11,5 @@ jobs:
         run: echo " done - goodbye"
       - name: multi shell commands
         run: |
-          echo: "command one"
-          echo: "command two"
+          echo "command one"
+          echo "command two"
