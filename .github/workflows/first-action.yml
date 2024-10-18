@@ -7,9 +7,3 @@ jobs:
     steps:
       - name: print greeting
         run: echo "Hello test message"
-      - name: print goodbye
-        run: echo " done - goodbye"
-      - name: multi shell commands
-        run: |
-          echo "command one"
-          echo "command two"
